@@ -280,7 +280,7 @@ http://localhost:8501
 
 ## 👤 Author
 
-**Sujal Goyal**  
+**DHEERAJ BHANDARI**  
 Engineering Student | AI & ML Enthusiast
 
 ---
