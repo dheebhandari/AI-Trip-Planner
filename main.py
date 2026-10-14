@@ -31,8 +31,17 @@ async def query_travel_agent(query: QueryRequest):
             final_output = str(output)
 
         return {"answer": final_output}
+    # except Exception as e:
+    #     return JSONResponse(status_code=500, content={"error": str(e)})
+
     except Exception as e:
-        return JSONResponse(status_code=500, content={"error": str(e)})
+
+        import traceback
+        traceback.print_exc()
+        return JSONResponse(
+            status_code=500,
+            content={"error": str(e)}
+    )
 
 
 
